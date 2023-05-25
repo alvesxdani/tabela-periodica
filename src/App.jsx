@@ -134,8 +134,40 @@ function App() {
           <ColorComponent color='gases_nobres' numberE='118' chemicalE='Og' href="http://google.com" />
         </div>
 
-        <div className="tabela_row">
-          
+        <div className="tabela_row" style={{marginTop: '2rem', marginLeft: '11.4rem'}}>
+          <ColorComponent color='lantanideos' numberE='57' chemicalE='La' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='58' chemicalE='Ce' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='59' chemicalE='Pr' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='60' chemicalE='Nd' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='61' chemicalE='Pm' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='62' chemicalE='Sm' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='63' chemicalE='Eu' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='64' chemicalE='Gd' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='65' chemicalE='Tb' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='66' chemicalE='Dy' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='67' chemicalE='Ho' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='68' chemicalE='Er' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='69' chemicalE='Tm' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='70' chemicalE='Yb' href="http://google.com" />
+          <ColorComponent color='lantanideos' numberE='71' chemicalE='Lu' href="http://google.com" />
+        </div>
+
+        <div className="tabela_row" style={{marginLeft: '11.4rem'}}>
+           <ColorComponent color='actinidios' numberE='89' chemicalE='Ac' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='90' chemicalE='Th' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='91' chemicalE='Pa' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='92' chemicalE='U' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='93' chemicalE='Np' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='94' chemicalE='Pu' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='95' chemicalE='Am' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='96' chemicalE='Cm' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='97' chemicalE='Bk' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='98' chemicalE='Cf' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='99' chemicalE='Es' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='100' chemicalE='Fm' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='101' chemicalE='Md' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='102' chemicalE='No' href="http://google.com" />
+           <ColorComponent color='actinidios' numberE='103' chemicalE='Lr' href="http://google.com" />
         </div>
 
       </div>

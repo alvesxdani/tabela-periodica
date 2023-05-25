@@ -12,7 +12,7 @@ const StyledComponent = styled.div`
 /* halogenios */ --white: #aaa;
 /* gases_nobres */ --tea-rose-red: #eab1b3ff;
 /* lantanideos */ --indian-red: #d66468ff;
-/* actinidios */ --light-coral: #da7276ff;
+/* actinidios */ --light-coral: #812225;
 
   color: #fff;
   background-color: ${(props) => 
