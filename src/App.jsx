@@ -168,15 +168,15 @@ function App() {
 
         <div className="tabela_row" style={{flexDirection: 'row', justifyContent: 'space-around', flexWrap: 'wrap', marginTop: '1.5rem'}}>
           <StyledCaption color='nao_metais' name='Não metais' key='nao_metais'/>
-          <StyledCaption color='metais_alcalinos' name='Metais alcalinos' key='nao_metais'/>
-          <StyledCaption color='semimetais' name='Semimetais' key='nao_metais'/>
-          <StyledCaption color='outros_metais' name='Outros metais' key='nao_metais'/>
-          <StyledCaption color='lantanideos' name='Lantanídeos' key='nao_metais'/>
-          <StyledCaption color='gases_nobres' name='Gases Nobres' key='nao_metais'/>
-          <StyledCaption color='metais_alcalinosT' name='Metais alcalino-terrosos' key='nao_metais'/>
-          <StyledCaption color='halogenios' name='Halogênios' key='nao_metais'/>
-          <StyledCaption color='metais_transicao' name='Metais de transição' key='nao_metais'/>
-          <StyledCaption color='actinidios' name='Actinídeos' key='nao_metais'/>
+          <StyledCaption color='metais_alcalinos' name='Metais alcalinos' key='metais_alcalinos'/>
+          <StyledCaption color='semimetais' name='Semimetais' key='semimetais'/>
+          <StyledCaption color='outros_metais' name='Outros metais' key='outros_metais'/>
+          <StyledCaption color='lantanideos' name='Lantanídeos' key='lantanideos'/>
+          <StyledCaption color='gases_nobres' name='Gases Nobres' key='gases_nobres'/>
+          <StyledCaption color='metais_alcalinosT' name='Metais alcalino-terrosos' key='metais_alcalinosT'/>
+          <StyledCaption color='halogenios' name='Halogênios' key='halogenios'/>
+          <StyledCaption color='metais_transicao' name='Metais de transição' key='metais_transicao'/>
+          <StyledCaption color='actinidios' name='Actinídeos' key='actinidios'/>
         </div>
 
       </div>
