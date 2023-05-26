@@ -50,4 +50,16 @@ h2 {
     flex-direction: row;
     /* border: 1px solid #eee; */
 }
+
+footer {
+    background: #1d1d1d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font: 0.8rem 'Lato', sans-serif;
+
+    a {
+        text-decoration: underline;
+    }
+}
 `
