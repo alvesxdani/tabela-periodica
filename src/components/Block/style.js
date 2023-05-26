@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const StyledComponent = styled.div`
-
 // CSS HEX
 /* nao_metais */ --lapis-lazuli: #005387ff;
 /* metais_alcalinos */ --english-violet: #62415dff;
@@ -14,18 +13,19 @@ const StyledComponent = styled.div`
 /* lantanideos */ --indian-red: #d66468ff;
 /* actinidios */ --light-coral: #812225;
 
+
   color: #fff;
-  background-color: ${(props) => 
-    props.color === 'nao_metais' ? 'var(--lapis-lazuli)' : 
-    props.color === 'metais_alcalinos' ? 'var(--english-violet)' :
-    props.color === 'metais_alcalinosT' ? 'var(--persian-red)' :
-    props.color === 'metais_transicao' ? 'var(--rose-taupe)' :
-    props.color === 'outros_metais' ? 'var(--air-superiority-blue)' :
-    props.color === 'semimetais' ? 'var(--columbcssia-blue)' :
-    props.color === 'halogenios' ? 'var(--white)' :
-    props.color === 'gases_nobres' ? 'var(--tea-rose-red)' :
-    props.color === 'lantanideos' ? 'var(--indian-red)' :
-    props.color === 'actinidios' ? 'var(--light-coral)' : '#eee; color: #a1a1a1;'
+  background-color: ${(props) =>
+    props.color === 'nao_metais' ? 'var(--lapis-lazuli)' :
+      props.color === 'metais_alcalinos' ? 'var(--english-violet)' :
+        props.color === 'metais_alcalinosT' ? 'var(--persian-red)' :
+          props.color === 'metais_transicao' ? 'var(--rose-taupe)' :
+            props.color === 'outros_metais' ? 'var(--air-superiority-blue)' :
+              props.color === 'semimetais' ? 'var(--columbcssia-blue)' :
+                props.color === 'halogenios' ? 'var(--white)' :
+                  props.color === 'gases_nobres' ? 'var(--tea-rose-red)' :
+                    props.color === 'lantanideos' ? 'var(--indian-red)' :
+                      props.color === 'actinidios' ? 'var(--light-coral)' : '#eee; color: #a1a1a1;'
   };
 
   
