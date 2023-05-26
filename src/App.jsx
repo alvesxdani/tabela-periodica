@@ -7,6 +7,7 @@ function App() {
   return (
     <div className='box'>
       <h1>Tabela Periódica</h1>
+      <h2>Clique em um elemento</h2>
 
       <div className="box_tabelaP">
         <div className='tabela_row'>
@@ -170,9 +171,9 @@ function App() {
           <StyledCaption color='metais_alcalinos' name='Metais alcalinos' key='nao_metais'/>
           <StyledCaption color='semimetais' name='Semimetais' key='nao_metais'/>
           <StyledCaption color='outros_metais' name='Outros metais' key='nao_metais'/>
-          <StyledCaption color='lantanídeos' name='Lantanídeos' key='nao_metais'/>
+          <StyledCaption color='lantanideos' name='Lantanídeos' key='nao_metais'/>
           <StyledCaption color='gases_nobres' name='Gases Nobres' key='nao_metais'/>
-          <StyledCaption color='metais_alcalinosT' name='Metais Alcalino-Terrosos' key='nao_metais'/>
+          <StyledCaption color='metais_alcalinosT' name='Metais alcalino-terrosos' key='nao_metais'/>
           <StyledCaption color='halogenios' name='Halogênios' key='nao_metais'/>
           <StyledCaption color='metais_transicao' name='Metais de transição' key='nao_metais'/>
           <StyledCaption color='actinidios' name='Actinídeos' key='nao_metais'/>

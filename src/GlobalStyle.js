@@ -27,6 +27,14 @@ h1 {
     font-weight: bolder;
     text-align: right;
     color: #005387ff;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font: 1rem 'Lato',sans-serif;
+    letter-spacing: 1px;
+    text-align: right;
+    color: #bbb;
     margin-bottom: 1.6rem;
 }
 

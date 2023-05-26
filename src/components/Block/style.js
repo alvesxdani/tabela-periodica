@@ -25,7 +25,7 @@ const StyledComponent = styled.div`
                 props.color === 'halogenios' ? 'var(--white)' :
                   props.color === 'gases_nobres' ? 'var(--tea-rose-red)' :
                     props.color === 'lantanideos' ? 'var(--indian-red)' :
-                      props.color === 'actinidios' ? 'var(--light-coral)' : '#eee; color: #a1a1a1;'
+                      props.color === 'actinidios' ? 'var(--light-coral)' : '#eee; color: #a1a1a1'
   };
 
   

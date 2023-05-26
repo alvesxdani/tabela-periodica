@@ -15,7 +15,7 @@ export const Caption = styled.div`
 
 box-sizing: content-box;
 min-width: 18%;
-margin: 1rem;
+margin: 1.6rem;
 color: #a1a1a1;
 font: 1rem 'Lato', sans-serif;
 /* border: 1px solid #eee; */
@@ -36,7 +36,7 @@ font: 1rem 'Lato', sans-serif;
                                 props.color === 'halogenios' ? 'var(--white)' :
                                     props.color === 'gases_nobres' ? 'var(--tea-rose-red)' :
                                         props.color === 'lantanideos' ? 'var(--indian-red)' :
-                                            props.color === 'actinidios' ? 'var(--light-coral)' : '#eee; color: #a1a1a1;'
+                                            props.color === 'actinidios' ? 'var(--light-coral)' : '#eee'
     };
     }
 
