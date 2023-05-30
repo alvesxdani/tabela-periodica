@@ -1,5 +1,4 @@
 import ColorComponent from "../Block";
-import StyledCaption from '../Caption';
 
 const ChemicalElements = () => {
   return (
@@ -11,7 +10,8 @@ const ChemicalElements = () => {
         <div className='tabela_row'>
           <ColorComponent key={Math.random() * 10} color='nao_metais' numberE='1' chemicalE='H' href="#" />
 
-          <div style={{ width: '952px' }}></div>
+          {/* <div style={{ width: '952px' }}></div> */}
+          <div className="espacamento"></div>
 
           <ColorComponent key={Math.random() * 10} color='gases_nobres' numberE='2' chemicalE='He' href="#" />
         </div>
@@ -20,7 +20,8 @@ const ChemicalElements = () => {
           <ColorComponent key={Math.random() * 10} color='metais_alcalinos' numberE='3' chemicalE='Li' href="#" />
           <ColorComponent key={Math.random() * 10} color='metais_alcalinosT' numberE='4' chemicalE='Be' href="#" />
 
-          <div style={{ width: '595px' }}></div>
+          {/* <div style={{ width: '595px' }}></div> */}
+          <div className="espacamento"></div>
 
           <ColorComponent key={Math.random() * 10} color='semimetais' numberE='5' chemicalE='B' href="#" />
           <ColorComponent key={Math.random() * 10} color='nao_metais' numberE='6' chemicalE='C' href="#" />
@@ -34,7 +35,8 @@ const ChemicalElements = () => {
           <ColorComponent key={Math.random() * 10} color='metais_alcalinos' numberE='11' chemicalE='Na' href="#" />
           <ColorComponent key={Math.random() * 10} color='metais_alcalinosT' numberE='12' chemicalE='Mg' href="#" />
 
-          <div style={{ width: '595px' }}></div>
+          {/* <div style={{ width: '595px' }}></div> */}
+          <div className="espacamento"></div>
 
           <ColorComponent key={Math.random() * 10} color='outros_metais' numberE='13' chemicalE='Al' href="#" />
           <ColorComponent key={Math.random() * 10} color='semimetais' numberE='14' chemicalE='Si' href="#" />

@@ -20,9 +20,11 @@ font: bolder 13px 'Montserrat', sans-serif;
     a {
         color: #a1a1a1;
         transition: all .80s ease-in;
+        border-bottom: 3px solid transparent;
 
         &:hover {
             color: #005387ff;
+            border-bottom: 3px solid #c42e32ff;
         }
     }
 `

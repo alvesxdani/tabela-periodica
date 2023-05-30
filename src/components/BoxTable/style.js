@@ -32,4 +32,14 @@ h2 {
     display: flex;
     flex-direction: row;
 }
+
+
+.espacamento:nth-child(n+1) {
+width: 952px;
+}
+
+.espacamento:nth-child(3) {
+width: 595px;
+}
+
 `

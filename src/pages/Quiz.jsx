@@ -1,7 +1,7 @@
 const Quiz = () => {
     return(
         <>
-        aaaaa
+        
         </>
     )
 }
