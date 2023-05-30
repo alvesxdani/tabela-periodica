@@ -13,17 +13,16 @@ export const Caption = styled.div`
 /* lantanideos */ --indian-red: #d66468ff;
 /* actinidios */ --light-coral: #812225;
 
-box-sizing: content-box;
-min-width: 18%;
-margin: 1.6rem;
 color: #a1a1a1;
 font: 1rem 'Lato', sans-serif;
-/* border: 1px solid #eee; */
+justify-self: left;
+align-self: center;
+
 
     &:before {
         content: '';
         position: absolute;
-        margin-left: -28px;
+        margin-left: -25px;
         width: 20px;
         height: 20px;
         background-color: ${(props) =>
