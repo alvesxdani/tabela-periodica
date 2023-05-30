@@ -4,10 +4,14 @@ import { Caption } from "./style";
 
 const CaptionBox = styled.div`
 display: grid;
-grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
-gap: 2rem;
+grid-template-columns: 2fr 2fr 2fr 2fr;
+gap: 3rem;
 padding: 1rem 1rem 1rem 6rem;
 height: auto;
+
+@media (max-width: 1000px) {
+    grid-template-columns: 2fr 2fr;
+}
 `
 
 const TableCaption = () => {

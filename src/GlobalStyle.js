@@ -6,7 +6,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     html, body {
-    max-width: 100%;
+    box-sizing: content-box;
+    width: 100%;
     height: 100%;
     margin: 0;
 }
@@ -19,5 +20,10 @@ export const GlobalStyle = createGlobalStyle`
     a {
       text-decoration: none;
       color: #bbb;
+}
+
+main {
+    box-sizing: content-box;
+    width: 100%;
 }
 `

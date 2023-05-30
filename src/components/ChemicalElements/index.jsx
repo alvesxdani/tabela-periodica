@@ -4,7 +4,10 @@ const ChemicalElements = () => {
   return (
     <>
       <h1>Tabela Periódica</h1>
-      <h2>Clique em um elemento</h2>
+      
+      {/* {
+        window.Screen >= 1000 ? (<h2>Clique em um elemento</h2>) : (<h2>Deslize os elementos</h2>)
+      } */}
 
       <div className="box_tabelaP">
         <div className='tabela_row'>
@@ -130,7 +133,7 @@ const ChemicalElements = () => {
           <ColorComponent key={Math.random() * 10} color='gases_nobres' numberE='118' chemicalE='Og' href="#" />
         </div>
 
-        <div className="tabela_row" style={{ marginTop: '2rem', marginLeft: '11.4rem' }}>
+        <div className="tabela_row outros_elementos">
           <ColorComponent key={Math.random() * 10} color='lantanideos' numberE='57' chemicalE='La' href="#" />
           <ColorComponent key={Math.random() * 10} color='lantanideos' numberE='58' chemicalE='Ce' href="#" />
           <ColorComponent key={Math.random() * 10} color='lantanideos' numberE='59' chemicalE='Pr' href="#" />
@@ -148,7 +151,7 @@ const ChemicalElements = () => {
           <ColorComponent key={Math.random() * 10} color='lantanideos' numberE='71' chemicalE='Lu' href="#" />
         </div>
 
-        <div className="tabela_row" style={{ marginLeft: '11.4rem' }}>
+        <div className="tabela_row outros_elementos">
           <ColorComponent key={Math.random() * 10} color='actinidios' numberE='89' chemicalE='Ac' href="#" />
           <ColorComponent key={Math.random() * 10} color='actinidios' numberE='90' chemicalE='Th' href="#" />
           <ColorComponent key={Math.random() * 10} color='actinidios' numberE='91' chemicalE='Pa' href="#" />
