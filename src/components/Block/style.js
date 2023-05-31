@@ -28,7 +28,6 @@ const StyledComponent = styled.div`
                       props.color === 'actinidios' ? 'var(--light-coral)' : '#eee; color: #a1a1a1'
   };
 
-  
   width: 50px;
   height: 50px;
   display: flex;
@@ -56,6 +55,24 @@ const StyledComponent = styled.div`
     filter: saturate(0%);
   }
 
-`;
+  @media (max-width: 1000px) {
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    .number_element {
+      font-size: 1.7rem;
+      position: absolute;
+      top: 0.5rem;
+      left: 0.5rem;
+    }
+
+    .chemical_element {
+      font-size: 4rem;
+
+  }
+}
+
+`
 
 export default StyledComponent;

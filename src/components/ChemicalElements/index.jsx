@@ -3,11 +3,13 @@ import ColorComponent from "../Block";
 const ChemicalElements = () => {
   return (
     <>
-      <h1>Tabela Periódica</h1>
+      <h1>Tabela Periódica - 1ª SÉRIE EM</h1>
       
-      {/* {
-        window.Screen >= 1000 ? (<h2>Clique em um elemento</h2>) : (<h2>Deslize os elementos</h2>)
-      } */}
+      {
+        'aa'
+      }
+
+      <br></br>
 
       <div className="box_tabelaP">
         <div className='tabela_row'>

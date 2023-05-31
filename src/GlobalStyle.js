@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     html, body {
     box-sizing: content-box;
     width: 100%;
+    min-width: 1100px;
     height: 100%;
     margin: 0;
 }
@@ -22,8 +23,9 @@ export const GlobalStyle = createGlobalStyle`
       color: #bbb;
 }
 
-main {
-    box-sizing: content-box;
-    width: 100%;
+@media (max-width: 1000px) {
+    body,html {
+        min-width: 600px;
+    }
 }
 `

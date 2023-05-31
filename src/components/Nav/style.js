@@ -6,7 +6,7 @@ display: flex;
 width: 98%;
 height: 50px;
 background: #eee7;
-justify-content: end;
+justify-content: center;
 align-items: center;
 gap: 1rem;
 margin: 1rem auto;

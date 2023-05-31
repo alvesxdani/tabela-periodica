@@ -57,9 +57,8 @@ width: 595px;
 
 
 @media (max-width: 1000px) {
-    max-width: 500px;
+    max-width: 600px;
     justify-content: center;
-    border: 1px solid #000;
     align-items: center;
 
     h1 {
@@ -76,6 +75,7 @@ width: 595px;
         overflow-y: scroll;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
+        padding: 1rem;
     }
 
     .outros_elementos {
