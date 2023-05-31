@@ -4,6 +4,8 @@ import TableCaption from '../components/Caption';
 import BoxTable from '../components/BoxTable';
 import Nav from '../components/Nav';
 
+
+
 function Home() {
 
     return (

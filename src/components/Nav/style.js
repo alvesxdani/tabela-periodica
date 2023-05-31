@@ -3,15 +3,13 @@ import { styled } from "styled-components";
 export const StyledNav = styled.nav`
 box-sizing: border-box;
 display: flex;
-width: 98%;
+width: 100%;
 height: 50px;
-background: #eee7;
+background: #f7f7f7;
 justify-content: center;
 align-items: center;
 gap: 1rem;
-margin: 1rem auto;
 padding-right: 1rem;
-border-radius: 5px;
 font: bolder 0.9rem 'Montserrat', sans-serif;
 
     a {

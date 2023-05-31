@@ -25,8 +25,17 @@ const StyledComponent = styled.div`
                 props.color === 'halogenios' ? 'var(--white)' :
                   props.color === 'gases_nobres' ? 'var(--tea-rose-red)' :
                     props.color === 'lantanideos' ? 'var(--indian-red)' :
-                      props.color === 'actinidios' ? 'var(--light-coral)' : '#eee; color: #a1a1a1'
+                      props.color === 'actinidios' ? 'var(--light-coral)' : '#eee; color: #a1a1a1;'
   };
+
+@keyframes animaBlock {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(-360deg);
+  }
+}
 
   width: 50px;
   height: 50px;
@@ -53,6 +62,7 @@ const StyledComponent = styled.div`
   
   &:hover {
     filter: saturate(0%);
+    animation: animaBlock .80s both;
   }
 
   @media (max-width: 1000px) {
