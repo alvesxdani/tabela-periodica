@@ -9,7 +9,7 @@ const Quiz = () => {
     const [quizState, dispatch] = useContext(QuizContext);
 
     useEffect(() => {
-        
+        dispatch({type: "REORDER_QUESTIONS"})
     }, [])
 
     return (
