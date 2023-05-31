@@ -12,7 +12,7 @@ gap: 1rem;
 margin: 1rem auto;
 padding-right: 1rem;
 border-radius: 5px;
-font: bolder 13px 'Montserrat', sans-serif;
+font: bolder 0.9rem 'Montserrat', sans-serif;
 
     a {
         color: #a1a1a1;
@@ -23,5 +23,9 @@ font: bolder 13px 'Montserrat', sans-serif;
             color: #005387ff;
             border-bottom: 3px solid #c42e32ff;
         }
+    }
+
+    @media (max-width: 1000px) {
+        font-size: 1.2rem;
     }
 `
