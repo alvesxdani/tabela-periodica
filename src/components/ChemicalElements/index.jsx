@@ -1,12 +1,27 @@
+import { useEffect, useState } from "react";
 import ColorComponent from "../Block";
 
 const ChemicalElements = () => {
+
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+  })
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({ width: window.innerWidth });
+    };
+
+    window.addEventListener('resize', handleResize);
+  }, [])
+
+
   return (
     <>
       <h1>Tabela Periódica - 1ª SÉRIE EM</h1>
-      
+
       {
-        'aa'
+        windowSize.width >= 1100 ? <h2>Clique em um elemento</h2> : <h2>Deslize entre os elementos e clique em cima</h2>
       }
 
       <br></br>

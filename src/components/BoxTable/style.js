@@ -60,9 +60,15 @@ width: 595px;
     max-width: 600px;
     justify-content: center;
     align-items: center;
+    margin: 20vh auto;
 
     h1 {
         font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
     }
 
     .espacamento {
