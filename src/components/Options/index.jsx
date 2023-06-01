@@ -9,8 +9,8 @@ const Options = ({option, selectOption, answer}) => {
   return (
     <BoxOption>
             <p
-                className={`${(quizState.answerSelected && option) === answer ? 'correct' : ''}
-                            ${(quizState.answerSelected && option) !== answer ? 'wrong' : ''}`}
+                className={`${quizState.answerSelected && option === answer ? 'correct' : ''}
+                            ${quizState.answerSelected && option !== answer ? 'wrong' : ''}`}
                 onClick={() => selectOption()}>
                     {option}
             </p>

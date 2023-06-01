@@ -3,9 +3,13 @@ import { styled } from "styled-components";
 const WlcScreen = styled.div`
 /* border: 1px solid #eee; */
 text-align: center;
-min-height: 100vh;
+min-height: 80vh;
 height: 100%;
 margin-top: 3rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 
     h1 {
         font: bolder 2rem 'Montserrat', sans-serif;

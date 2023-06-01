@@ -14,7 +14,7 @@ height: 80vh;
 
     p {
         font:1rem 'Lato', sans-serif;
-        margin: 0.5rem;
+        margin: 1rem;
     }
 
     button {
