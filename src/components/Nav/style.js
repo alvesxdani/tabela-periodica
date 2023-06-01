@@ -4,7 +4,7 @@ export const StyledNav = styled.nav`
 box-sizing: border-box;
 display: flex;
 width: 100%;
-height: 50px;
+height: 60px;
 background: #f7f7f7;
 justify-content: center;
 align-items: center;
@@ -16,10 +16,14 @@ font: bolder 0.9rem 'Montserrat', sans-serif;
         color: #a1a1a1;
         transition: all .80s ease-in;
         border-bottom: 3px solid transparent;
+        padding: 0.4rem;
+        border-radius: 5px;
 
         &:hover {
-            color: #005387ff;
-            border-bottom: 3px solid #c42e32ff;
+            background: #005387ff;
+            color: #fff;
+            box-shadow: 2px 2px 0px #c42e32ff;
+            
         }
     }
 
