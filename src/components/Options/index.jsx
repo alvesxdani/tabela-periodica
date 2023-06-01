@@ -2,10 +2,12 @@ import React, { useContext } from 'react'
 import { QuizContext } from '../../context/quiz'
 import { BoxOption } from './style';
 
-const Options = ({option}) => {
+const Options = ({option, selectOption, answer}) => {
+
     const [quizState, dispatch] = useContext(QuizContext);
+    
   return (
-    <BoxOption>{option}</BoxOption>
+    <BoxOption onClick={() => selectOption()}>{option}</BoxOption>
   )
 }
 
