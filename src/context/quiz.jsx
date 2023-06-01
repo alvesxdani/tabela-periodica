@@ -7,7 +7,7 @@ const initialState = {
     gameStage: STAGES[0],
     questions,
     currentQuestion: 0,
-    score: 0
+    score: 0,
 }
 
 const quizReducer = (state, action) => {
@@ -36,6 +36,7 @@ const quizReducer = (state, action) => {
                     ...state,
                     currentQuestion: nextQuestion,
                     gameStage: endGame ? STAGES[2] : state.gameStage,
+                    answerSelected: false
                 }
 
                 case "NEW_GAME":
@@ -43,6 +44,7 @@ const quizReducer = (state, action) => {
 
                 case "CHECK_ANSWER":
                     if(state.answerSelected) return state;
+
                     const answer = action.payload.answer
                     const option = action.payload.option
                     let correctAnswer = 0

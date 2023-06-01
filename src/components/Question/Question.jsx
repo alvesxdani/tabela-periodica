@@ -10,7 +10,7 @@ function Question() {
   const onSelectOption = (option) => {
     dispatch({
       type: "CHECK_ANSWER",
-      payload: {answer: currentQuestion.answer, option}
+      payload: {answer: currentQuestion.answer, option},
     })
   }
 

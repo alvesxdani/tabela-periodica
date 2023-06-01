@@ -5,9 +5,16 @@ import { BoxOption } from './style';
 const Options = ({option, selectOption, answer}) => {
 
     const [quizState, dispatch] = useContext(QuizContext);
-    
+
   return (
-    <BoxOption onClick={() => selectOption()}>{option}</BoxOption>
+    <BoxOption>
+            <p
+                className={`${(quizState.answerSelected && option) === answer ? 'correct' : ''}
+                            ${(quizState.answerSelected && option) !== answer ? 'wrong' : ''}`}
+                onClick={() => selectOption()}>
+                    {option}
+            </p>
+        </BoxOption>
   )
 }
 
