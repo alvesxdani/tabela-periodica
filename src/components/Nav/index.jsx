@@ -4,8 +4,8 @@ import { StyledNav } from "./style";
 const Nav = () => {
     return (
         <StyledNav>
-            <Link to="/">Home</Link>
-            <Link to="/quiz">Quiz</Link>
+            <Link to="/">HOME</Link>
+            <Link to="/quiz">QUIZ</Link>
         </StyledNav>
     )
 }

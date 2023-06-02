@@ -5,12 +5,12 @@ box-sizing: border-box;
 display: flex;
 width: 100%;
 height: 60px;
-background: #f7f7f7;
+background: #f9f9f9;
 justify-content: center;
 align-items: center;
 gap: 1rem;
 padding-right: 1rem;
-font: bolder 0.9rem 'Montserrat', sans-serif;
+font: bolder 1rem 'Montserrat', sans-serif;
 
     a {
         color: #a1a1a1;
