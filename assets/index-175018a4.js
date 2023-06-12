@@ -300,7 +300,7 @@ font: bolder 1rem 'Montserrat', sans-serif;
     @media (max-width: 1000px) {
         font-size: 1.2rem;
     }
-`,ip=()=>h.jsxs(A1,{children:[h.jsx(qs,{to:"/",children:"HOME"}),h.jsx(qs,{to:"/quiz",children:"QUIZ"})]});function U1(){return h.jsxs(h.Fragment,{children:[h.jsx(ip,{}),h.jsxs("main",{children:[h.jsx(fc,{content:h.jsx(L1,{})}),h.jsx(fc,{content:h.jsx(D1,{})})]})]})}const B1=mt.div`
+`,ip=()=>h.jsxs(A1,{children:[h.jsx(qs,{to:"/tabela-periodica/",children:"HOME"}),h.jsx(qs,{to:"/quiz",children:"QUIZ"})]});function U1(){return h.jsxs(h.Fragment,{children:[h.jsx(ip,{}),h.jsxs("main",{children:[h.jsx(fc,{content:h.jsx(L1,{})}),h.jsx(fc,{content:h.jsx(D1,{})})]})]})}const B1=mt.div`
 /* border: 1px solid #eee; */
 text-align: center;
 min-height: 80vh;
