@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-      <Route Component={Home} path='/tabela-periodica/' exact />
+      <Route Component={Home} path='/' exact />
       <Route Component={Quiz} path='/quiz' />
       </Routes>
     </BrowserRouter>
