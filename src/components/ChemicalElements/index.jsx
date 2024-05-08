@@ -18,7 +18,7 @@ const ChemicalElements = () => {
 
   return (
     <>
-      <h1>Tabela Periódica - 1ª SÉRIE EM</h1>
+      <h1>Tabela Periódica</h1>
 
       {
         windowSize.width >= 1100 ? <h2>Clique em um elemento</h2> : <h2>Deslize entre os elementos e clique em cima</h2>
